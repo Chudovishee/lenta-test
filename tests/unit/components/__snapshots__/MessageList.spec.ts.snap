@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList component can render with empty messages 1`] = `
+<div
+  class="message-list"
+/>
+`;
+
+exports[`MessageList component can render with messages 1`] = `
+<div
+  class="message-list"
+>
+  <div
+    class="message-list__message-container first"
+  >
+    <message-view-stub
+      align="left"
+      message="[object Object]"
+      stucked="true"
+    />
+  </div>
+  <div
+    class="message-list__message-container"
+  >
+    <message-view-stub
+      align="left"
+      message="[object Object]"
+      stucked="true"
+    />
+  </div>
+  <div
+    class="message-list__message-container"
+  >
+    <message-view-stub
+      align="left"
+      message="[object Object]"
+      stucked="true"
+    />
+  </div>
+  <div
+    class="message-list__message-container"
+  >
+    <message-view-stub
+      align="left"
+      message="[object Object]"
+    />
+  </div>
+</div>
+`;
